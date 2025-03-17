@@ -12,7 +12,9 @@ class RatableItem extends Component {
     render() {
         return (
             <div className="itemToRate">
-                
+                <p className="itemContent">
+                    Pineapple on Pizza
+                </p>
             </div>
         );
     }
