@@ -1,6 +1,6 @@
 /* ImageRatingComponent.css */
 
-.content-rating {
+.itemToRate {
     text-align: center;
     margin-bottom: 20px;
     display: flex;
@@ -16,7 +16,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   
-  .rating-buttons {
+  .itemRatingButtons {
     margin-top: 10px;
   }
   
