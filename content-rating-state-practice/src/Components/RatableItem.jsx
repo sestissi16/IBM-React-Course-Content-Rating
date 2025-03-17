@@ -11,8 +11,8 @@ class RatableItem extends Component {
     }
     render() {
         return (
-            <div>
-            <h1>Item to Rate</h1>
+            <div className="itemToRate">
+                
             </div>
         );
     }
