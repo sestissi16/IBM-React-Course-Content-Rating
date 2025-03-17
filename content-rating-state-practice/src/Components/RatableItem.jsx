@@ -25,11 +25,11 @@ class RatableItem extends Component {
                 <p className="itemContent">
                     Pineapple on Pizza
                 </p>
-                <div className="itemRatingButtons">
+                <div className="itemRatingButtons" onClick={this.state.handleLike}>
                     <button className="like-button">
                         Like ({this.state.likes})
                     </button>
-                   <button className="dislike-button">
+                   <button className="dislike-button" onClick={this.state.handleDislike}>
                         Dislike ({this.state.dislikes})
                    </button>
                 </div>
