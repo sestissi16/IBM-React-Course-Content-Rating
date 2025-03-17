@@ -15,6 +15,9 @@ class RatableItem extends Component {
                 <p className="itemContent">
                     Pineapple on Pizza
                 </p>
+                <div className="itemRatingButtons">
+                    
+                </div>
             </div>
         );
     }
