@@ -28,4 +28,4 @@ class RatableItem extends Component {
     }
 }
 
-export default RatableItem
+export default RatableItem;
