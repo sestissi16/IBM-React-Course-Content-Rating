@@ -16,7 +16,12 @@ class RatableItem extends Component {
                     Pineapple on Pizza
                 </p>
                 <div className="itemRatingButtons">
-                    
+                    <button className="like-button">
+                        Like ({this.state.likes})
+                    </button>
+                   <button className="dislike-button">
+                        Dislike ({this.state.dislikes})
+                   </button>
                 </div>
             </div>
         );
