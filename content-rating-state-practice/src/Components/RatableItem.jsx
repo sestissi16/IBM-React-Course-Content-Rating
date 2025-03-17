@@ -27,3 +27,5 @@ class RatableItem extends Component {
         );
     }
 }
+
+export default RatableItem
